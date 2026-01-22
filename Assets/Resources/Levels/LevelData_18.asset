@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602bc1d941dc6b148b76dd1f19251170, type: 3}
+  m_Name: LevelData_18
+  m_EditorClassIdentifier: 
+  gridWidth: 10
+  gridHeight: 10
+  cellSize: 1
+  maxMoves: 26
+  blocks:
+  - color: 3
+    cell: {x: 8, y: 2}
+    length: 4
+    orient: 1
+  - color: 1
+    cell: {x: 7, y: 0}
+    length: 3
+    orient: 1
+  - color: 2
+    cell: {x: 5, y: 0}
+    length: 4
+    orient: 1
+  - color: 0
+    cell: {x: 3, y: 7}
+    length: 2
+    orient: 1
+  goals:
+  - color: 3
+    cell: {x: 9, y: 4}
+    length: 4
+    orient: 1
+  - color: 1
+    cell: {x: 0, y: 4}
+    length: 4
+    orient: 1
+  - color: 2
+    cell: {x: 1, y: 9}
+    length: 4
+    orient: 0
+  - color: 0
+    cell: {x: 5, y: 4}
+    length: 4
+    orient: 1
